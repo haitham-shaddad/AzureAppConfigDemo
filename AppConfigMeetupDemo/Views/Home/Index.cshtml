@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@inject Microsoft.FeatureManagement.IFeatureManager featureManager
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<br />
+<br />
+<h1 class="text-center">
+    @ViewBag.AppTitle
+</h1>
+<feature name="Sales">
+    <div>
+        <a href="Sales">Sales</a>
+    </div>
+</feature>
