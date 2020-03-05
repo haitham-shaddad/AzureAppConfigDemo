@@ -1,7 +1,8 @@
-#AzureAppConfigDemo#
+# AzureAppConfigDemo #
+
 A demo presented at Azure Sydney UG for Azure App Configuration Service
 
-#Run the application To run the sample, you have to:
+## How to Run the application the sample?
 
 1. Create a new Azure App Configuration instance
 2. Update the key AzureAppConfig:ConnectionString in appsettings.json with the connection string from the new app config instance. This will allow you to run the sample anywhere
