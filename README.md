@@ -1,6 +1,6 @@
 # AzureAppConfigDemo #
 
-A demo presented at Azure Sydney UG for Azure App Configuration Service
+A demo presented at Azure Sydney UG [meetup](https://www.meetup.com/Azure-Sydney-User-Group/events/268749979/) for Azure App Configuration Service
 
 ## How to Run the application the sample?
 
